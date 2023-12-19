@@ -252,7 +252,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero-min.jpg') center center;
+  background: url('../img/Weddingcover.png') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -670,6 +670,17 @@ Engagement Pics
     overflow: hidden;
     border-radius: 4px;
   }
+  .image-gallery-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (max-width: 992px) {
+    .image-gallery-row {
+      display: block;
+    }
+  }
+
   .img-wrap .overlay {
     position: absolute;
     width: 100%;
