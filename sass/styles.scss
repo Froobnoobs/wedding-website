@@ -684,10 +684,12 @@ Engagement Pics
   .image-gallery-row {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
   }
 
   @media (max-width: 992px) {
     .image-gallery-row {
+      margin-top: 0;
       display: block;
     }
   }
